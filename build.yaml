@@ -2,3 +2,5 @@
 include:
   - board: nice_nano//zmk
     shield: moja_tastatura
+  - board: nice_nano//zmk
+    shield: settings_reset
