@@ -1,0 +1,5 @@
+file_format: "1"
+id: trk_3_key
+name: TRK 3 Key
+type: shield
+requires: [nice_nano_v2]
