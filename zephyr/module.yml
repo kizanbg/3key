@@ -1,4 +1,0 @@
-name: zmk-keyboard-trk-3-key
-build:
-  settings:
-    board_root: .

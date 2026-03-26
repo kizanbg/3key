@@ -1,7 +1,0 @@
-if SHIELD_TRK_3_KEY
-
-# Name must be less than 16 characters long!
-config ZMK_KEYBOARD_NAME
-    default "trk 3 key"
-
-endif
