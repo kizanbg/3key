@@ -1,6 +1,0 @@
-if SHIELD_TRK_3_KEY
-
-config ZMK_KEYBOARD_NAME
-    default "TRK 3 KEY"
-
-endif

@@ -1,0 +1,6 @@
+if SHIELD_MOJA_TASTATURA
+
+config ZMK_KEYBOARD_NAME
+    default "Moja Tastatura"
+
+endif

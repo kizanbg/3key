@@ -1,0 +1,10 @@
+file_format: "1"
+id: moja_tastatura
+name: Moja Tastatura
+type: shield
+url: ""
+requires_kernel_version: "3.5"
+features:
+  - keys
+siblings:
+  - moja_tastatura

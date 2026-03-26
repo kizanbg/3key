@@ -1,0 +1,33 @@
+/*
+ * Keymap za moju handwire tastaturu (3 tastera)
+ *
+ * Promeni &kp A, &kp B, &kp C na sta god hoces.
+ * Lista svih keycode-ova: https://zmk.dev/docs/codes
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            display-name = "Base";
+            bindings = <
+                &kp A    &kp B    &kp C
+            >;
+        };
+
+        /*
+         * Dodaj jos layera po potrebi, npr:
+         *
+         * fn_layer {
+         *     display-name = "Fn";
+         *     bindings = <
+         *         &kp F1   &kp F2   &kp F3
+         *     >;
+         * };
+         */
+    };
+};

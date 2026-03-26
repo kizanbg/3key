@@ -1,2 +1,0 @@
-config SHIELD_TRK_3_KEY
-    def_bool y
